@@ -1,0 +1,243 @@
+@font-face {
+    font-style: normal;
+    font-weight: 700;
+    src: local("Poppins"), local("Poppins Bold"), local("Poppins-Bold"),
+      url("/fonts/PoppinsBold.woff2") format("woff2"),
+      url("/fonts/PoppinsBold.woff") format("woff");
+    font-family: Poppins;
+    font-display: swap;
+  }
+  @font-face {
+    font-style: normal;
+    font-weight: 600;
+    src: local("Poppins"), local("Poppins SemiBold"), local("Poppins-SemiBold"),
+      url("/fonts/PoppinsSemiBold.woff2") format("woff2"),
+      url("/fonts/PoppinsSemiBold.woff") format("woff");
+    font-family: Poppins;
+    font-display: swap;
+  }
+  @font-face {
+    font-style: normal;
+    font-weight: 500;
+    src: local("Poppins"), local("Poppins Medium"), local("Poppins-Medium"),
+      url("/fonts/PoppinsMedium.woff2") format("woff2"),
+      url("/fonts/PoppinsMedium.woff") format("woff");
+    font-family: Poppins;
+    font-display: swap;
+  }
+  @font-face {
+    font-style: normal;
+    font-weight: 400;
+    src: local("Poppins"), local("Poppins Regular"), local("Poppins-Regular"),
+      url("/fonts/PoppinsRegular.woff2") format("woff2"),
+      url("/fonts/PoppinsRegular.woff") format("woff");
+    font-family: Poppins;
+    font-display: swap;
+  }
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  @media screen and (min-width: 59.375em) {
+    body {
+      background-image: url("../images/bg-intro-desktop.png");
+    }
+  }
+
+  body {
+    background:#ff7a7a url("../images/bg-intro-desktop.png") no-repeat center top/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    min-height: 100vh;
+  }
+
+  h3,p{
+    color: white;
+  }
+
+  a{
+    text-decoration: none;
+    color: #ff7a7a;
+    font-weight: 700;
+    transition: color .15s ease-in-out;
+  }
+
+  a:hover{
+    color: #ffa2a2;
+    text-decoration: underline;
+    text-decoration-color: initial;
+    text-decoration-thickness: 0.125em;
+  }
+  
+
+  .hero__main{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    max-width: 69.375rem;
+  }
+
+  .hero__text{
+    font-size: 3.125rem;
+    letter-spacing: -.03125rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+  }
+
+  form{
+    position: relative;
+  }
+
+  label{
+    position: absolute;
+    opacity: .75;
+    left: 1.3125rem;
+    letter-spacing: .015625rem;
+    margin-top: 1rem;
+  }
+
+  input{
+    width: 100%;
+    height: 3.5rem;
+    border: 0.0625rem solid #dedede;
+    border-radius: 0.3125rem;
+    padding-left: 1.2rem; 
+    font-size: 1rem;
+  }
+
+   input::placeholder {
+    font-size: 1rem;
+  }
+
+  .icon-password{
+    position: absolute;
+    top: 55%;
+    right: 3%;
+    cursor: pointer;
+  }
+
+  .hero__information{
+    margin-bottom: 1.5rem;
+  }
+  .hero__banner{
+    background-color: #6055a5;
+    padding: 1.125rem 4.125rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.5rem 0 rgb(0 0 0 / 14%);  
+  }
+  .hero__banner-text{
+    text-align: center;
+  }
+
+  .hero__validPassword{
+    font-size: 0.80rem;
+    margin: 0.6rem 0 1rem 0;
+  }
+
+  .hero__Form{
+    background-color: #fff;
+    color: #3e3c49;
+    font-size: .875rem;
+    font-weight: 600; 
+    margin-top: 1.5rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.5rem 0 rgb(0 0 0 / 14%);
+    padding: 2.5rem;
+  }
+
+  .hero__left{
+    flex-basis: 49%;
+  }
+  .hero__right{
+    flex-basis: 50%;
+  }
+  .hero__submitSignup{
+    background-color: #38cc8c;
+    border: none;
+    border-radius: 0.3125rem;
+    box-shadow: inset 0 -0.25rem 0 rgb(0 0 0 / 9%);
+    cursor: pointer;
+    display: block;
+    font-size: .9375rem;
+    padding: 0.9375rem;
+    text-transform: uppercase;
+    transition: background-color .15s ease-in-out;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: .7rem;
+  }
+
+  .hero__submitSignup:hover{
+    background-color: #77e2b3;
+  }
+  .hero__terms{
+    color: #b9b6d3;
+    font-size: .6875rem;
+    text-align: center;
+  }
+
+  .hero__linkTerms{
+    color: #ff7a7a;
+    font-weight: 700;
+    transition: color .15s ease-in-out;
+    cursor: pointer;
+    margin-left: 0.2rem;
+    text-decoration: none;
+  }
+
+  .hero__linkTerms:hover{
+    color: #ffa2a2;
+    text-decoration: underline;
+  }
+
+  .footer--form{
+    font-size: .875rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: white;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.5rem 0 rgba(0,0,0,.14);
+    padding: 1.5rem;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 6.25rem;
+  
+  }
+
+  .footer--attribution{
+    color: #3e3c49;
+  }
+
+  @media screen and (max-width: 950px){
+    .footer--form{
+      display: none;
+    }
+    .hero__main{
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .hero__text{
+      font-size:2rem;
+    }
+
+    .hero__left{
+      margin-bottom: 4rem;
+    }
+
+    .hero__container{
+      max-width: 37.5rem;
+    }
+  }
+
+
