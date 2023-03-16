@@ -1,14 +1,14 @@
-# intro-component-with-signup-form
-intro-component-with-signup-form
 
-![Alt text](https://github.com/parisaghm/intro-component-with-signup-form/blob/master/banner.jpg)
+
+![Alt text](https://github.com/parisaghm/intro-component-with-signup-form/blob/master/banner.jpg)\
+# intro-component-with-signup-form
 Welcome!
 
 I created this project to sharpen my coding skill.
 
 In this file, I'm going to tell you everything starting from the tools that I used, and much more.
 
-The challenge
+#The challenge
 
 My challenge is to build out this landing page and get it looking as close to the design as possible.
 
