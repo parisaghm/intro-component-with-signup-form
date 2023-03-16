@@ -27,3 +27,9 @@ Know the length of their password (without making them count it by themselves).
 
 ![Alt text](https://github.com/parisaghm/intro-component-with-signup-form/blob/master/Screenshots.jpg)
 
+#Built With
+
+HTML
+CSS Flexbox
+JavaScript
+Mobile-first workflow
