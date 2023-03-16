@@ -1,5 +1,7 @@
 # intro-component-with-signup-form
 intro-component-with-signup-form
+
+![Alt text](https://github.com/parisaghm/intro-component-with-signup-form/blob/master/banner.jpg)
 Welcome!
 
 I created this project to sharpen my coding skill.
