@@ -8,7 +8,7 @@ I created this project to sharpen my coding skill.
 
 In this file, I'm going to tell you everything starting from the tools that I used, and much more.
 
-<font size="6">**The challenge**</font>
+<font size="10">The challenge</font>
 
 My challenge is to build out this landing page and get it looking as close to the design as possible.
 
