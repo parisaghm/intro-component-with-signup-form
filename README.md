@@ -1,6 +1,6 @@
 
 
-![Alt text](https://github.com/parisaghm/intro-component-with-signup-form/blob/master/banner.jpg)\
+![Alt text](https://github.com/parisaghm/intro-component-with-signup-form/blob/master/banner.jpg)
 # intro-component-with-signup-form
 Welcome!
 
